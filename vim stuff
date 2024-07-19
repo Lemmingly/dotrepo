@@ -1,0 +1,28 @@
+vim resources
+
+https://dev.to/iggredible/mastering-visual-mode-in-vim-15pl#repeat
+https://vim.rtorr.com/
+https://learnvim.irian.to/basics/views_sessions_viminfo
+
+https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/ (not vim lol)
+
+
+
+
+my vimrc
+syntax on
+colorscheme murphy 	" I also like elflord and industry
+set number		" show line numbers on the left
+set cursorline
+set cursorcolumn
+set incsearch
+set ignorecase
+set smartcase
+set showmode
+set showmatch
+
+set laststatus=2
+set statusline=%F\ %y\ %=\ %4v,%4l\ %3p%%\ of\ %L\ lines
+hi StatusLine cterm=none
+
+inoremap jj <esc>
